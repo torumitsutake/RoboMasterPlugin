@@ -1,0 +1,4 @@
+name: RoboMasterPlugin
+version: ${project.version}
+main: com.github.torumitsutake.robomasterplugin.RoboMasterPlugin
+api-version: 1.13
