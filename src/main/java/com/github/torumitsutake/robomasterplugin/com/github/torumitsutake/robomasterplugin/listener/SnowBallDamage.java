@@ -1,4 +1,4 @@
-package com.github.torumitsutake.robomasterplugin;
+package com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.listener;
 
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Snowball;
@@ -16,8 +16,10 @@ public class SnowBallDamage implements Listener{
 			e.setDamage(SnowballDamage);
 		}
 
-
 	}
+
+
+
 
 
 }

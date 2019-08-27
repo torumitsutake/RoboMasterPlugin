@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RoboMasterPlugin">
+    <output-path>$USER_HOME$/OneDrive/デスクトップ/Spigotserver/plugins</output-path>
+    <root id="archive" name="RoboMasterPlugin.jar">
+      <element id="module-output" name="RoboMasterPlugin" />
+    </root>
+  </artifact>
+</component>
