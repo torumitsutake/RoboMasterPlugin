@@ -1,10 +1,10 @@
-package com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.judgesystemmanager;
+package com.github.torumitsutake.robomasterplugin.judgesystemmanager;
 
 import com.github.torumitsutake.robomasterplugin.RoboMasterPlugin;
-import com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.playerstype.Engineer;
-import com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.playerstype.Hero;
-import com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.playerstype.PlayersBase;
-import com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.playerstype.Standard;
+import com.github.torumitsutake.robomasterplugin.playerstype.Engineer;
+import com.github.torumitsutake.robomasterplugin.playerstype.Hero;
+import com.github.torumitsutake.robomasterplugin.playerstype.PlayersBase;
+import com.github.torumitsutake.robomasterplugin.playerstype.Standard;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;

@@ -1,14 +1,11 @@
 package com.github.torumitsutake.robomasterplugin;
 
-import com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.judgesystemmanager.PlayersManager;
-import com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.listener.ListenerManager;
-import com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.listener.SnowBallDamage;
+import com.github.torumitsutake.robomasterplugin.judgesystemmanager.PlayersManager;
+import com.github.torumitsutake.robomasterplugin.listener.ListenerManager;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.ArrayList;
 
 public final class RoboMasterPlugin extends JavaPlugin {
 

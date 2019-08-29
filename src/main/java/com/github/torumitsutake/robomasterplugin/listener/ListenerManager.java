@@ -1,4 +1,4 @@
-package com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.listener;
+package com.github.torumitsutake.robomasterplugin.listener;
 
 import com.github.torumitsutake.robomasterplugin.RoboMasterPlugin;
 

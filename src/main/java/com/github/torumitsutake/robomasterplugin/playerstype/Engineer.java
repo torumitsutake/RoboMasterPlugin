@@ -1,4 +1,4 @@
-package com.github.torumitsutake.robomasterplugin.com.github.torumitsutake.robomasterplugin.playerstype;
+package com.github.torumitsutake.robomasterplugin.playerstype;
 
 import org.bukkit.entity.Player;
 
