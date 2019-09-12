@@ -6,7 +6,9 @@ public class Standard extends PlayersBase{
 
 
     public Standard(Player player, int id) {
+
         super(player, id);
+        RobotType = "Standard";
     }
 
 

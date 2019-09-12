@@ -39,6 +39,14 @@ public class PlayersManager {
         }
     }
 
+    public HashMap<Integer,PlayersBase> getRedPlayer(){
+        return redPlayer;
+    }
+    public HashMap<Integer,PlayersBase> getBluePlayer(){
+        return bluePlayer;
+    }
+
+
     public PlayersBase generateRobot(Player p ,int id,String type){
         if(type.equalsIgnoreCase("standard")){
             Standard player = new Standard(p,id);
@@ -48,7 +56,7 @@ public class PlayersManager {
             Hero player = new Hero(p,id);
             return player;
 
-        }else if(type.equalsIgnoreCase("Engineer")){
+        }else if(type.equalsIgnoreCase("engineer")){
             Engineer player = new Engineer(p,id);
             return player;
 

@@ -7,5 +7,7 @@ public class Hero extends PlayersBase {
 
         super(player, id);
         this.setDefaultHP(200);
+        RobotType = "Hero";
     }
+
 }

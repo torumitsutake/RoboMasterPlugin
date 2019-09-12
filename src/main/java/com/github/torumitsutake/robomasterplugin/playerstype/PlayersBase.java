@@ -9,7 +9,7 @@ public class PlayersBase {
     int PlayerID = 0;
     int defaultHP = 1000;
     int defaultCooling = 10;
-
+    String RobotType = "Standard";
 
 
 
@@ -44,5 +44,10 @@ public class PlayersBase {
     public void setDefaultCooling(int setCooling){
         defaultCooling = setCooling;
     }
+
+    public String getType(){
+        return RobotType;
+    }
+
 
 }
