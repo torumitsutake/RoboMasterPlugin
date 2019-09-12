@@ -32,7 +32,8 @@ public final class RoboMasterPlugin extends JavaPlugin {
         // Plugin shutdown logic
     }
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
-        if(cmd.getName().equalsIgnoreCase("cmd")){
+        if(cmd.getName().equalsIgnoreCase("setplayer")){
+            //player red/blue robotid
 
         }
 
