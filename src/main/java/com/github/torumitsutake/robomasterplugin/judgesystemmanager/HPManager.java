@@ -8,6 +8,12 @@ import java.util.HashMap;
 public class HPManager implements Listener {
     private static HPManager instance;
     HashMap<PlayersBase,Integer> HPList = new HashMap<PlayersBase,Integer>();
+    HashMap<PlayersBase,Boolean> HPcanDamage = new HashMap<PlayersBase,Boolean>();
+    int redBase  = 2000;
+    int blueBase  = 2000;
+    int redSentry = 500;
+    int blueSentry = 500;
+
 
     //シングルトン設計
     public static HPManager getInstance(){
@@ -50,6 +56,10 @@ public class HPManager implements Listener {
         }
 
         //UnplayersRobot
+        redBase = 2000;
+        blueBase = 2000;
+        redSentry = 500;
+        blueSentry = 500;
 
 
     }
@@ -59,6 +69,16 @@ public class HPManager implements Listener {
 
         return hp;
     }
+    public boolean setDamage2Player(){
+
+        return false;
+    }
+
+    public boolean setDamage2NPC(){
+
+        return false;
+    }
+
 
 
 

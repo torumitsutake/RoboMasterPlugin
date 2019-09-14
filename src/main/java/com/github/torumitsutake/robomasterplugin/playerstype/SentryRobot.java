@@ -8,7 +8,11 @@ public class SentryRobot {
     SentryRobot(Entity entity){
         if(entity.getType() == EntityType.MINECART_CHEST){
             SentryCart = entity;
+            entity.setCustomName("Sentry");
+            entity.setCustomNameVisible(true);
         }
     }
+
+
 
 }
