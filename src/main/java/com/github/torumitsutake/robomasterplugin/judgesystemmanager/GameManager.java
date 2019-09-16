@@ -19,6 +19,10 @@ public class GameManager {
 
     }
 
+    public void start(){
+
+    }
+
     public void reset(){
 
 
